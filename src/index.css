@@ -13,24 +13,33 @@
   @apply text-white border-b border-white pb-2
 }
 
-.custom-shape-divider-bottom-1684410295 {
+.top-canvas {
   position: absolute;
-  bottom: 0;
+  top: -100px;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
 
-.custom-shape-divider-bottom-1684410295 svg {
+.top-canvas svg , .bottom-canvas svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 101px;
 }
 
-.custom-shape-divider-bottom-1684410295 .shape-fill {
-  fill: #FFFFFF;
+.top-canvas .shape-fill , .bottom-canvas .shape-fill {
+  fill: white;
+}
+.bottom-canvas {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 
@@ -39,6 +48,6 @@
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-22%);
+    transform: translateX(-100%);
   }
 }

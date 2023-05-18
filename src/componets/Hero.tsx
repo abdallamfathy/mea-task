@@ -3,7 +3,7 @@ import HeroText from "./HeroText";
 
 const Hero = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <div className="flex justify-between items-center  my-20 ">
         <HeroText />
         <HeroImage />
