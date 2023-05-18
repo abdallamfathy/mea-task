@@ -3,9 +3,9 @@ import { FiSearch } from 'react-icons/fi'
 
 const Navbar = () => {
   return (
-    <div className='max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-40'>
+    <div className=''>
         <div className='flex justify-between items-center text-white'>
-        <img src="/src/assets/logo.png" alt="logo" className='w-auto '/>
+        <img src="/src/assets/logo.png" alt="logo" className='w-48 '/>
         <NavLinks />
 
         <div className='flex gap-8 items-center'>

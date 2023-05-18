@@ -6,7 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      
+      animation: {
+        carAnimation: 'carAnimation 5s linear infinite' // Example with a slower animation
+      },
     },
   },
   variants: {

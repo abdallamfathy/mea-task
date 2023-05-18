@@ -12,3 +12,33 @@
 .active {
   @apply text-white border-b border-white pb-2
 }
+
+.custom-shape-divider-bottom-1684410295 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1684410295 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1684410295 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+@keyframes carAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-22%);
+  }
+}
