@@ -4,7 +4,7 @@ import { FiCodesandbox, FiMail, FiMapPin, FiPhoneCall, FiTwitter } from 'react-i
 
 const Footer = () => {
   return (
-    <div className="bg-black  relative mt-36">
+    <div className="bg-black  relative md:mt-36 mt-20">
         <div className="footer-canvas ">
         <svg
           data-name="Layer 1"
