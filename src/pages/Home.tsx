@@ -1,5 +1,6 @@
 import Clients from "../componets/Clients"
 import Hero from "../componets/Hero"
+import LatestNews from "../componets/LatestNews"
 import Navbar from "../componets/Navbar"
 import OurServices from "../componets/OurServices"
 import Partners from "../componets/Partners"
@@ -16,6 +17,7 @@ const Home = () => {
     <Partners/>
     <Vehicles/>
     <Clients/>
+    <LatestNews/>
     </div>
   )
 }
