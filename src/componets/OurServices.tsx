@@ -20,12 +20,12 @@ const OurServices = () => {
         </svg>
       </div>
 
-      <div className="flex flex-col justify-between items-center gap-32">
+      <div className="flex flex-col justify-between items-center md:gap-32 gap-16">
           <div className="flex flex-col items-center gap-4">
-            <h2 className="font-bold text-4xl">Our Services</h2>
-            <p className="tracking-[.2rem] font-normal">Wij zijn de beste kraamzorg in uw regio!</p>
+            <h2 className="font-bold text-2xl md:text-4xl">Our Services</h2>
+            <p className="tracking-[.2rem] font-normal max-md:text-center max-md:text-sm max-md:px-7">Wij zijn de beste kraamzorg in uw regio!</p>
           </div>
-          <div className="flex justify-center items-center gap-20">
+          <div className="flex md:flex-row flex-col justify-center items-center gap-20">
           <ServiceCard 
           title="BUY NEW CAR"
           about="Ruim 50.000 moeders gingen jou
