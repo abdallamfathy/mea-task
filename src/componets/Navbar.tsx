@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
           )
         }
-        <div>
+        <div className='max-md:hidden'>
         <NavLinks />
         </div>
 
