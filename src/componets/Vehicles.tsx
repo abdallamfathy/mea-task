@@ -3,7 +3,7 @@ import carMob from '/src/assets/carMob3.png'
 
 const Vehicles = () => {
   return (
-    <div className="flex flex-col justify-between items-center gap-5 md:mt-64 mt-28 max-md:mb-20">
+    <div className="flex flex-col justify-between items-center gap-5 md:mt-64 mt-36 max-md:mb-20">
           <div className="flex flex-col items-center gap-4">
             <h2 className="font-bold text-2xl md:text-4xl">Newly Listed Vehicles</h2>
             <p className="tracking-[.2rem] font-normal max-md:text-sm max-md:text-center max-md:px-7">Wij zijn de beste kraamzorg in uw regio!</p>
