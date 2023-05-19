@@ -10,7 +10,7 @@ import Vehicles from "../componets/Vehicles"
 const Home = () => {
   return (
     <div className="overflow-clip">
-      <div className=" max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-40 h-full py-10  bg-gradient-to-br from-[#870DF0] to-[#4819E2]">
+      <div className=" max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-40 h-full md:py-10 py-8  bg-gradient-to-br from-[#870DF0] to-[#4819E2]">
       <Navbar/>
       <Hero/>
     </div>

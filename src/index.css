@@ -10,7 +10,7 @@
 
 
 .active {
-  @apply text-white border-b border-white pb-2
+  @apply text-white border-b border-white pb-2 max-md:text-purple-500
 }
 
 .top-canvas {
