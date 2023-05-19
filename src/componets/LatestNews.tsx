@@ -8,7 +8,7 @@ import news5 from "/src/assets/news5.png";
 const LatestNews = () => {
   return (
     <div className="md:mx-96 mx-7">
-      <div className="flex flex-col justify-between items-center gap-20 mt-36">
+      <div className="flex flex-col justify-between items-center gap-20 md:mt-36 mt-20">
         <div className="flex flex-col items-center gap-4">
           <h2 className="font-bold md:text-4xl text-2xl">Latest News </h2>
           <p className="tracking-[.2rem] font-normal max-md:text-sm max-md:text-center">
