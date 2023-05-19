@@ -5,8 +5,8 @@ import usaCars from "/src/assets/usa-cars.png";
 import bigCar from "/src/assets/bigCar.png";
 const Partners = () => {
   return (
-    <>
-    <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-40 h-full py-40 pb-64 bg-gradient-to-br from-[#870DF0] to-[#4819E2]">
+    <div className="relative">
+    <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-40 h-full py-40 pb-64 bg-gradient-to-br from-[#870DF0] to-[#4819E2] ">
       <div className="flex flex-col justify-center items-center gap-8 text-center text-white ">
         <h1 className="w-[1100px] font-semibold italic text-lg">
           We are the largest website that deals with buying & selling cars in
@@ -27,11 +27,11 @@ const Partners = () => {
             <img src={usaCars} alt="usa-car" />
           </div>
       </div>
-      <div className="flex justify-center items-start">
-      <img src={bigCar} alt="bigCar" className="inset-0 -translate-y-[400px] " />
+      <div className="flex justify-center items-center inset-0 translate-y-48  absolute">
+      <img src={bigCar} alt="bigCar" className="  " />
 
       </div>
-    </>
+    </div>
   );
 };
 
