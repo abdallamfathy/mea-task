@@ -4,9 +4,9 @@ import HeroText from "./HeroText";
 const Hero = () => {
   return (
     <div className="">
-      <div className="flex justify-between items-center  my-20 ">
+      <div className="flex md:flex-row flex-col justify-between items-center max-md:gap-10 my-20 ">
         <HeroText />
-        {/* <HeroImage /> */}
+        <HeroImage />
       </div>
     </div>
   );
