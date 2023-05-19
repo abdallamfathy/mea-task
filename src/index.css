@@ -54,7 +54,7 @@
 
 .footer-canvas {
   position: absolute;
-  top: 0px;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;

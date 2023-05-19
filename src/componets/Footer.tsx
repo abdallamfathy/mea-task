@@ -17,7 +17,7 @@ const Footer = () => {
             className="shape-fill"></path>
         </svg>
       </div>
-      <div className="px-96 pt-52 pb-36 text-[#8C8C8C] flex  gap-10 h-full">
+      <div className="2xl:px-80 px-44 pt-52 pb-36 text-[#8C8C8C] flex  gap-10 h-full">
         <section className='h-full w-1/4'>
             <div className="flex flex-col gap-8 items-start">
                 <img src={footerLogo} alt="footerLogo" />
@@ -127,7 +127,7 @@ California 1367 USA</p>
             </div>
         </section>
       </div>
-      <div className='px-96 pb-20 text-[#8C8C8C] flex justify-between'>
+      <div className='2xl:px-80 px-44 pb-20 text-[#8C8C8C] flex justify-between'>
             <div>
             Copyright <span className='text-blue-500'>@Zizcash 2023</span> Made with love by Mohit
             </div>

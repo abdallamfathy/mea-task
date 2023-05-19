@@ -28,7 +28,7 @@ const Partners = () => {
           </div>
       </div>
       <div className="flex justify-center items-center inset-0 translate-y-48  absolute">
-      <img src={bigCar} alt="bigCar" className="  " />
+      <img src={bigCar} alt="bigCar" className=" max-2xl:w-1/4" />
 
       </div>
     </div>
