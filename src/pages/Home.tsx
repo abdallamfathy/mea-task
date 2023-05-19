@@ -1,4 +1,5 @@
 import Clients from "../componets/Clients"
+import Footer from "../componets/Footer"
 import Hero from "../componets/Hero"
 import LatestNews from "../componets/LatestNews"
 import Navbar from "../componets/Navbar"
@@ -18,6 +19,7 @@ const Home = () => {
     <Vehicles/>
     <Clients/>
     <LatestNews/>
+    <Footer/>
     </div>
   )
 }

@@ -1,17 +1,16 @@
-import React from 'react'
 import NewsCard from './NewsCard'
-import news1 from '../assets/news1.png'
-import news2 from '../assets/news2.png'
-import news3 from '../assets/news3.png'
-import news4 from '../assets/news4.png'
-import news5 from '../assets/news5.png'
+import news1 from '/src/assets/news1.png'
+import news2 from '/src/assets/news2.png'
+import news3 from '/src/assets/news3.png'
+import news4 from '/src/assets/news4.png'
+import news5 from '/src/assets/news5.png'
 
 
 
 const LatestNews = () => {
   return (
     <div className='mx-96'>
-        <div className="flex flex-col justify-between items-center gap-20 mt-64">
+        <div className="flex flex-col justify-between items-center gap-20 mt-36">
           <div className="flex flex-col items-center gap-4">
             <h2 className="font-bold text-4xl">Latest News      </h2>
             <p className="tracking-[.2rem] font-normal">Wij zijn de beste kraamzorg in uw regio!</p>

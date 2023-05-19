@@ -22,15 +22,25 @@
   line-height: 0;
 }
 
-.top-canvas svg , .bottom-canvas svg {
+.top-canvas svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+.bottom-canvas svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 101px;
 }
 
-.top-canvas .shape-fill , .bottom-canvas .shape-fill {
+.top-canvas .shape-fill{
   fill: white;
+}
+ .bottom-canvas .shape-fill {
+  fill: white;
+
 }
 .bottom-canvas {
   position: absolute;
@@ -42,6 +52,27 @@
   transform: rotate(180deg);
 }
 
+.footer-canvas {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+}
+
+.footer-canvas svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.footer-canvas .shape-fill{
+  fill: white;
+}
 
 @keyframes carAnimation {
   0% {
