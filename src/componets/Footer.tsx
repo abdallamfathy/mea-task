@@ -17,8 +17,8 @@ const Footer = () => {
             className="shape-fill"></path>
         </svg>
       </div>
-      <div className="2xl:px-80 px-44 pt-52 pb-36 text-[#8C8C8C] flex  gap-10 h-full">
-        <section className='h-full w-1/4'>
+      <div className="2xl:px-80 md:px-44 px-7 pt-52 md:pb-36 text-[#8C8C8C] flex md:flex-row flex-col gap-10 h-full">
+        <section className='h-full md:w-1/4'>
             <div className="flex flex-col gap-8 items-start">
                 <img src={footerLogo} alt="footerLogo" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -33,8 +33,8 @@ Sunday is closed</p>
             </div>
         </section>
 
-        <section className='h-full w-1/4'>
-            <div className="flex flex-col gap-8 items-center">
+        <section className='h-full md:w-1/4'>
+            <div className="flex flex-col gap-8 md:items-center">
                 <h2 className='text-white font-bold text-lg pl-3 border-l-4 border-purple-600'>
                 LATEST VEHICLES
                 </h2>
@@ -70,7 +70,7 @@ Sunday is closed</p>
                 </div>
             </div>
         </section>
-        <section className='h-full w-1/4'>
+        <section className='h-full md:w-1/4'>
             <div className="flex flex-col gap-8 items-start">
                 <h2 className='text-white font-bold text-lg pl-3 border-l-4 border-purple-600'>
                 LATEST NEWS
@@ -99,7 +99,7 @@ sitamet consectuerer delgado</p>
                 
             </div>
         </section>
-        <section className='h-full w-1/4'>
+        <section className='h-full md:w-1/4'>
             <div className="flex flex-col gap-8 items-start">
                 <h2 className='text-white font-bold text-lg pl-3 border-l-4 border-purple-600'>
                 CONTACT US
@@ -127,7 +127,7 @@ California 1367 USA</p>
             </div>
         </section>
       </div>
-      <div className='2xl:px-80 px-44 pb-20 text-[#8C8C8C] flex justify-between'>
+      <div className='2xl:px-80 md:px-44 p-5 md:pb-20   text-[#8C8C8C] flex md:flex-row flex-col-reverse max-md:gap-6 justify-between'>
             <div>
             Copyright <span className='text-blue-500'>@Zizcash 2023</span> Made with love by Mohit
             </div>

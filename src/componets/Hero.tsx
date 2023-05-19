@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="">
       <div className="flex justify-between items-center  my-20 ">
         <HeroText />
-        <HeroImage />
+        {/* <HeroImage /> */}
       </div>
     </div>
   );
