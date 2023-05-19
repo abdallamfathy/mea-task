@@ -1,3 +1,4 @@
+import Clients from "../componets/Clients"
 import Hero from "../componets/Hero"
 import Navbar from "../componets/Navbar"
 import OurServices from "../componets/OurServices"
@@ -14,6 +15,7 @@ const Home = () => {
     <OurServices/>
     <Partners/>
     <Vehicles/>
+    <Clients/>
     </div>
   )
 }
