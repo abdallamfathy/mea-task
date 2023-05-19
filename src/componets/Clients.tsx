@@ -10,7 +10,7 @@ const Clients = () => {
             </div>
             <div className='md:w-1/2 p-7 md:p-20 md:py-36 relative'>
                 <img src={clients} alt="clients" />
-        <img src={map} alt="map" className="absolute translate-x-[550px] inset-0 translate-y-56  "/>
+        <img src={map} alt="map" className="absolute translate-x-[550px] inset-0 translate-y-56  max-md:hidden"/>
             </div>
         </div>
     </div>
